@@ -1,14 +1,4 @@
 def calculate_charges(vehicle_type, hours_parked):
-    """
-    Calculate parking charges based on vehicle type and duration
-    Pricing:
-    - Bike: ₹10/hour
-    - Car: ₹20/hour
-    - EV: ₹15/hour (discounted)
-    - Heavy Vehicle: ₹40/hour
-    
-    Special: First 2 hours flat rate, then hourly
-    """
     rates = {
         'Bike': 10,
         'Car': 20,
